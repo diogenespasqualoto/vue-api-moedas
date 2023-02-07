@@ -1,5 +1,5 @@
 <template>
-  <div class="container grid-lg my-2 py-2 text-dark">
+  <div class="container grid-lg my-2 py2 text-dark">
     <div class="card">
       <div class="card-header">
         <div class="h4">Exibindo as moedas!</div>
@@ -35,6 +35,7 @@ export default {
 </script>
 
 <style>
+.container
 .h4 {
   text-align: center;
   margin-bottom: 10px;
