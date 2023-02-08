@@ -43,7 +43,7 @@ export default {
   margin-bottom: 10px;
 }
 .card {
-  box-shadow: 0 0 2em white;
+  box-shadow: 0 0 1em white;
 }
 div p,
 table th,
