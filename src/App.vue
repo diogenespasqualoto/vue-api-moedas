@@ -29,18 +29,26 @@ export default {
       data.quotes = response.data;
     });
 
-    return {...toRefs(data)}
+    return { ...toRefs(data) };
   },
 };
 </script>
 
 <style>
-.container
-.h4 {
+* {
+  background-color: black;
+}
+.container .h4 {
   text-align: center;
   margin-bottom: 10px;
 }
 .card {
-  box-shadow: 0 0 2em black;
+  box-shadow: 0 0 2em white;
+}
+div p,
+table th,
+table td,
+.h4 {
+  color: rgb(235, 231, 231);
 }
 </style>
